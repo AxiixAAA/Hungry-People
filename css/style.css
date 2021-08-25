@@ -1,0 +1,310 @@
+body{
+}
+/* Основная фоновая картинка */
+.fons{
+  background: url('../img/header-bg.png') no-repeat;
+  background-size: 100% 100%;
+  color: white;
+}
+a{
+  color: white;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+}
+h1{
+  font-size: calc( 0.01400 * 100vw + 10px );
+  line-height: 50%;;
+}
+h2{
+  font-family: Open Sans;
+  font-size: calc( 0.00500 * 100vw + 10px );
+  font-weight: 600;
+  line-height: 155%;
+}
+h3{
+  font-weight: normal;
+  font-family: Open Sans;
+  line-height: 155%;
+  font-size: calc( 0.00300 * 100vw + 10px );
+}
+h4{
+  font-weight: normal;
+  font-family: Open Sans;
+  line-height: 155%;
+  font-size: 0.8vw;
+}
+.big-text{
+  letter-spacing: 10px;
+  font-size: calc( 0.03500 * 100vw + 10px );
+}
+.subtitle {
+  font-family: Open Sans;
+  letter-spacing: 10px;
+  font-weight: 600;
+  line-height: 275%;
+  font-size: calc( 0.00400 * 100vw + 10px );
+}
+/* Жёлтая полосочка */
+.yellow-line{
+  width: 3vw;
+  border: 0.1vw solid #e8c300;
+  border-radius: 10px;
+  background: #e8c300;
+  display: inline-block;
+}
+.content__center__yellow-line{
+  width: 3vw;
+  border: 0.1vw solid #e8c300;
+  border-radius: 10px;
+  background: #e8c300;
+  display: inline-block;
+  margin-top: 7%;
+  margin-bottom: 2%;
+}
+/* Настройка менюшки */
+.head-menu ul{
+    padding: 0% 7%;
+    justify-content: space-around;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: calc( 0.00500 * 100vw + 7px );
+  }
+  .head-menu li{
+    margin-top: 2%;
+
+  }
+  #head-menu_img {
+    margin-top: 1%;
+  }
+/* Основной блок распозиционировающий контент */
+.content ul{
+    margin-top: 5.8%;
+
+    display: flex;
+    align-items: center;
+  }
+  .head-menu img{
+    width: 10vw;
+  }
+  .content li{
+    width: 20%;
+}
+  #content__left{
+    font-size: calc( 0.00500 * 100vw + 5px );
+    margin-bottom: 15%;
+
+    -moz-transform: rotate(-90.0deg);  /* FF3.5+ */
+         -o-transform: rotate(-90.0deg);  /* Opera 10.5 */
+    -webkit-transform: rotate(-90.0deg);  /* Saf3.1+, Chrome */
+               filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
+           -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
+  }
+  #content__center{
+      width: 60%;
+      text-align: center;
+    }
+      /* Позиционирование кнопок */
+      .content__center__button ul{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: calc( 0.00500 * 100vw + 7px );
+        }
+        .content__center__button li{
+          margin: -3% 3% 5% 3%;
+        }
+        /* Стили для кнопок */
+        .content__center__button1{
+          padding: 1.5vw 3% ;
+          border: 1px solid white;
+          border-radius: 10px;
+          font-weight: bold;
+        }
+        /* Стиль для кнопок при наведении */
+        .content__center__button1:hover{
+          color: grey;
+        }
+        /* Стиль для активной кнопки "лишки" */
+        .active{
+          background: #e8c300;
+          border-radius: 10px;
+          border: none;
+        }
+      /* Стили для стрелки под кнопками */
+      .strelka-vniz{
+          width: 2vw;
+          height: 2vw;
+          border-radius: 100%;
+          border: 1px solid white;
+          background: white;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .strelka-border{
+          width: 4vw;
+          height: 4vw;
+          border-radius: 100%;
+          border: 1px solid white;
+
+          margin-left: 46%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+  #content__rigth{
+      margin-bottom: 15%;
+    }
+    .content__rigth_seti{
+    margin: 10% 0% 10% 40%;
+    width: 3vw;
+    height: 3vw;
+    border: 1px solid white;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+.while-block ul, .img-block ul, .img-block-sss ul{
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items:center;
+  padding: 2% 0%;
+}
+.while-block li, .img-block li, .img-block-sss li{
+  width: 50%;
+}
+.while-block img, .img-block img, .img-block-sss img{
+  width: 30vw;
+  height: 30vw;
+  min-width: 400px;
+  min-height: 400px;
+
+}
+/*.yellow-square{
+  width: 10vw;
+  height: 10vw;
+  border: 1.1vw solid #e8c300;
+  border-radius: 10px;
+  position: relative;
+  top: 21vw;
+  left: 31vw;
+}*/
+.img-block, .while-block, .img-block-sss{
+  padding: 3% 0;
+}
+.img-block{
+  background: url('../img/fona.png') no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  text-align: center;
+}
+.img-block-sss{
+  background: url('../img/specialtys-bg.png') no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  text-align: center;
+}
+.input{
+  padding: 0% 22%;
+}
+.input ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.input li{
+  width: 50%;
+
+}
+.input input{
+  max-width: 250px;
+  height: 3vw;
+  width: 12vw;
+  padding-left: 10%;
+  border-radius: 10px;
+  margin: 2% 0%;
+
+  font-family: Open Sans;
+  font-size: calc( 0.00300 * 100vw + 10px );
+  font-weight: 600;
+  line-height: 155%;
+  background-color: #e5e5e5;
+  border: none;
+}
+#input_date{
+
+}
+#input_Time{
+
+}
+.input input[type="submit"]{
+  max-width: 520px;
+  width: 27.1vw;
+  padding-left: 0;
+  line-height: 0;
+  background: #e8c300;
+  color: white;
+}
+.while-block_2{
+  padding: 3% 10%;
+  text-align: center;
+
+}
+.while-block_2__ListOne ul{
+  margin: 5% 0% 3% 0%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-family: Open Sans;
+  font-size: calc( 0.00300 * 100vw + 10px );
+}
+.while-block_2__ListOne li{
+  width: 14%;
+  border-right: 1px solid #dbdbdb;
+  padding: 1% 0%;
+}
+.while-block_2__ListOne ul :last-child{
+  border-right: none;
+}
+
+
+.while-block_2__ListTwo ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.while-block_2__ListTwo li{
+  margin-bottom: 2.5%;
+}
+.while-block_2__ListTwo{
+  text-align: left;
+}
+.while-block_2__ListTwo__Heading{
+  font-size: calc( 0.00600 * 100vw + 8px );
+    letter-spacing: 1px;
+}
+.while-block_2__ListTwo__Subtitle{
+  font-family: Open Sans;
+  font-size: calc( 0.00200 * 100vw + 8px );
+  color: grey;
+}
+.kar ul{
+  display: flex;
+  justify-content: space-between;
+}
+.kar img{
+  width: 24.78vw;
+}
