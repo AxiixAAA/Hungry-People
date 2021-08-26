@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Reset.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!-- Фоновая картинка -->
+    <div class="fons">
+      <menu>
+          <div class="head-menu">
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">TEAM</a></li>
+              <li><a href="#">BOOKING</a></li>
+              <!-- дял id был использован отрицательный margin -->
+              <li id="head-menu_img"><img src="img/Vector.png"></li>
+              <li><a href="#">MENU</a></li>
+              <li><a href="#">GALERIA</a></li>
+              <li><a href="#">EVENTS</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </div>
+      </menu>
+      <!-- Основной блок распозиционировающий контент  -->
+      <div class="content">
+        <ul>
+          <li id="content__left">
+              <h4>Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</h4>
+          </li>
+
+          <li id="content__center">
+                <div class="subtitle">RESTAURANT</div>
+                <div class="big-text">HUANGRY PEOPLE</div>
+                <!-- Жёлтая полоска  -->
+                <div class="content__center__yellow-line"></div>
+                <div class="content__center__button">
+                  <ul>
+                    <!-- Типо активная ссылка, имеет жёлтый фон -->
+                    <li class="active">
+                        <a href="#"><div class="content__center__button1">
+                          BOOK TABLE
+                        </div></a>
+                    </li>
+                    <li>
+                    <a href="#"><div class="content__center__button1">
+                      EXPLORE
+                    </div></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="strelka-border"><div class="strelka-vniz"> <img src="../img/strelka.png"> </div></div>
+          </li>
+
+          <li id="content__rigth">
+                  <div class="content__rigth_seti">
+                      <a href="https://ru-ru.facebook.com/"><img src="img/f.png"></a>
+                  </div>
+                  <div class="content__rigth_seti">
+                      <a href="https://twitter.com/?lang=ru"><img src="img/t.png"></a>
+                  </div>
+                  <div class="content__rigth_seti">
+                      <a href="https://www.instagram.com/?hl=ru"><img src="img/i.png"></a>
+                </div>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="while-block">
+        <ul>
+          <li>
+            <h1>ABOUT US</h1>
+            <!-- Жёлтая полоска  -->
+            <div class="yellow-line"></div>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at<br> velit maximus, molestie est a, tempor magna.</h2>
+            <h3>Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non<br>ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a<br> sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla<br> facilisis semper laoreet.</h3>
+          </li>
+          <li>
+            <img src="img/about-img.png">
+            <div class="yellow-square"></div>
+          </li>
+        </ul>
+    </div>
+    <div class="img-block">
+      <div class="subtitle" style="line-height:0;">OUR TEAM</div>
+      <ul>
+        <li> <img src="img/Rectangle.png"> </li>
+        <li>
+          <h1>MASTER CHEF</h1>
+          <!-- Жёлтая полоска  -->
+          <div class="yellow-line"></div>
+          <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at<br> velit maximus, molestie est a, tempor magna.</h2>
+          <h3>Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non<br> ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a<br> sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla<br> facilisis semper laoreet.</h3>
+        </li>
+      </ul>
+    </div>
+    <div class="while-block">
+        <ul>
+          <li>
+            <h1>BOOK A TABLE</h1>
+            <!-- Жёлтая полоска  -->
+            <div class="yellow-line"></div>
+            <form>
+            <div class="input">
+              <ul>
+                  <li><input type="text" name="Name" placeholder="Name"></li>
+                  <li><input type="email" name="Email" placeholder="Email"></li>
+
+                  <li><input type="tel" name="Phone" placeholder="Phone"></li>
+                  <li><input type="text" name="People" placeholder="People"></li>
+
+                  <li><input type="date" name="Date" id="input_date"></li>
+                  <li><input type="time" name="Time" id="input_Time"></li>
+             </ul>
+             <input type="submit" name="otpravka" value="BOOK NOW">
+            </div>
+          </form>
+          </li>
+          <li>
+            <img src="img/aboutimg.png">
+            <div class="yellow-square"></div>
+          </li>
+        </ul>
+        <h4 style="text-align:center; color: grey; line-height: 0%;">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131 637/+40 726 458 782</h4>
+    </div>
+    <div class="img-block">
+      <div class="subtitle" style="line-height:0;">SPECIALTIES</div>
+      <ul>
+        <li> <img src="img/Rectangle1.png"> </li>
+        <li>
+          <h1>CHOCOLATE PANCAKES</h1>
+          <!-- Жёлтая полоска  -->
+          <div class="yellow-line"></div>
+          <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at<br> velit maximus, molestie est a, tempor magna.</h2>
+          <h3>Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non<br> ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a<br> sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla<br> facilisis semper laoreet.</h3>
+        </li>
+      </ul>
+    </div>
+    <div class="while-block_2">
+        <h1>DELICIOUS MENU</h1>
+        <!-- Жёлтая полоска  -->
+        <div class="yellow-line"></div>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis<br> at velit maximus, molestie est a, tempor magna.</h2>
+        <div class="while-block_2__ListOne">
+            <ul>
+              <li>SOUPE</li>
+              <li>PIZZA</li>
+              <li>PASTA</li>
+              <li>DESERT</li>
+              <li>WINE</li>
+              <li>BEER</li>
+              <li>DRINKS</li>
+            </ul>
+        </div>
+      <div class="while-block_2__ListTwo">
+        <ul>
+          <li> <div class="while-block_2__ListTwo__Heading">PIZZA QUATRO STAGIONI .... 55,68 USD</div>
+                <div class="while-block_2__ListTwo__Subtitle"> Integer ullamcorper neque eu purus euismod</div>
+          </li>
+          <li> <div class="while-block_2__ListTwo__Heading">PIZZA QUATRO STAGIONI .... 55,68 USD</div>
+                <div class="while-block_2__ListTwo__Subtitle"> Integer ullamcorper neque eu purus euismod</div>
+          </li>
+          <li> <div class="while-block_2__ListTwo__Heading">PIZZA QUATRO STAGIONI .... 55,68 USD</div>
+                <div class="while-block_2__ListTwo__Subtitle"> Integer ullamcorper neque eu purus euismod</div>
+          </li>
+          <li> <div class="while-block_2__ListTwo__Heading">PIZZA QUATRO STAGIONI .... 55,68 USD</div>
+                <div class="while-block_2__ListTwo__Subtitle"> Integer ullamcorper neque eu purus euismod</div>
+          </li>
+          <li> <div class="while-block_2__ListTwo__Heading">PIZZA QUATRO STAGIONI .... 55,68 USD</div>
+                <div class="while-block_2__ListTwo__Subtitle"> Integer ullamcorper neque eu purus euismod</div>
+          </li>
+          <li> <div class="while-block_2__ListTwo__Heading">PIZZA QUATRO STAGIONI .... 55,68 USD</div>
+                <div class="while-block_2__ListTwo__Subtitle"> Integer ullamcorper neque eu purus euismod</div>
+          </li>
+          <li> <div class="while-block_2__ListTwo__Heading">PIZZA QUATRO STAGIONI .... 55,68 USD</div>
+                <div class="while-block_2__ListTwo__Subtitle"> Integer ullamcorper neque eu purus euismod</div>
+          </li>
+          <li> <div class="while-block_2__ListTwo__Heading">PIZZA QUATRO STAGIONI .... 55,68 USD</div>
+                <div class="while-block_2__ListTwo__Subtitle"> Integer ullamcorper neque eu purus euismod</div>
+          </li>
+          <li> <div class="while-block_2__ListTwo__Heading">PIZZA QUATRO STAGIONI .... 55,68 USD</div>
+                <div class="while-block_2__ListTwo__Subtitle"> Integer ullamcorper neque eu purus euismod</div>
+          </li>
+          <li> <div class="while-block_2__ListTwo__Heading">PIZZA QUATRO STAGIONI .... 55,68 USD</div>
+                <div class="while-block_2__ListTwo__Subtitle"> Integer ullamcorper neque eu purus euismod</div>
+          </li>
+          <li> <div class="while-block_2__ListTwo__Heading">PIZZA QUATRO STAGIONI .... 55,68 USD</div>
+                <div class="while-block_2__ListTwo__Subtitle"> Integer ullamcorper neque eu purus euismod</div>
+          </li>
+          <li> <div class="while-block_2__ListTwo__Heading">PIZZA QUATRO STAGIONI .... 55,68 USD</div>
+                <div class="while-block_2__ListTwo__Subtitle"> Integer ullamcorper neque eu purus euismod</div>
+          </li>
+          <li> <div class="while-block_2__ListTwo__Heading">PIZZA QUATRO STAGIONI .... 55,68 USD</div>
+                <div class="while-block_2__ListTwo__Subtitle"> Integer ullamcorper neque eu purus euismod</div>
+          </li>
+          <li> <div class="while-block_2__ListTwo__Heading">PIZZA QUATRO STAGIONI .... 55,68 USD</div>
+                <div class="while-block_2__ListTwo__Subtitle"> Integer ullamcorper neque eu purus euismod</div>
+          </li>
+          <li> <div class="while-block_2__ListTwo__Heading">PIZZA QUATRO STAGIONI .... 55,68 USD</div>
+                <div class="while-block_2__ListTwo__Subtitle"> Integer ullamcorper neque eu purus euismod</div>
+          </li>
+          <li> <div class="while-block_2__ListTwo__Heading">PIZZA QUATRO STAGIONI .... 55,68 USD</div>
+                <div class="while-block_2__ListTwo__Subtitle"> Integer ullamcorper neque eu purus euismod</div>
+          </li>
+          <li> <div class="while-block_2__ListTwo__Heading">PIZZA QUATRO STAGIONI .... 55,68 USD</div>
+                <div class="while-block_2__ListTwo__Subtitle"> Integer ullamcorper neque eu purus euismod</div>
+          </li>
+          <li> <div class="while-block_2__ListTwo__Heading">PIZZA QUATRO STAGIONI .... 55,68 USD</div>
+                <div class="while-block_2__ListTwo__Subtitle"> Integer ullamcorper neque eu purus euismod</div>
+          </li>
+          <li> <div class="while-block_2__ListTwo__Heading">PIZZA QUATRO STAGIONI .... 55,68 USD</div>
+                <div class="while-block_2__ListTwo__Subtitle"> Integer ullamcorper neque eu purus euismod</div>
+          </li>
+          <li> <div class="while-block_2__ListTwo__Heading">PIZZA QUATRO STAGIONI .... 55,68 USD</div>
+                <div class="while-block_2__ListTwo__Subtitle"> Integer ullamcorper neque eu purus euismod</div>
+          </li>
+          <li> <div class="while-block_2__ListTwo__Heading">PIZZA QUATRO STAGIONI .... 55,68 USD</div>
+                <div class="while-block_2__ListTwo__Subtitle"> Integer ullamcorper neque eu purus euismod</div>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="img-block-sss">
+      <div class="subtitle" style="line-height:0;">SPECIALTIES</div>
+      <ul>
+
+        <li> <img src="img/kol.png"> </li>
+
+        <li> <img src="img/stakan.png">  </li>
+      </ul>
+      <h4 style="text-align:center; color: grey; line-height: 0%;">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131 637/+40 726 458 782</h4>
+
+    </div>
+
+    <div class="kar">
+      <ul>
+        <li> <img src="img/kar1.png"> </li>
+        <li> <img src="img/kar2.png"> </li>
+        <li> <img src="img/kar3.png"> </li>
+        <li> <img src="img/kar4.png"> </li>
+      </ul>
+    </div>
+  </body>
+</html>
